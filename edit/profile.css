@@ -1,0 +1,124 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.profile_body {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark text color */
+    overflow-y: scroll;
+}
+
+/* Navigation bar */
+.Nav_all {
+    background-color: #333; /* Dark background color */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.welcome-message {
+    color: #fff; /* White text color */
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navi_1 {
+    display: flex; /* Use flex display for horizontal alignment */
+    justify-content: center; /* Center align items horizontally */
+    gap: 15px; /* Gap between buttons */
+}
+
+.navi_1 a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #3d0d99;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navi_1 a:hover {
+    background-color: #120c49;
+}
+
+/* Profile top section */
+.profile_image {
+    text-align: center;
+    background: transparent;
+}
+
+#profile-im {
+    width: 80px; /* Increase the width for a larger image */
+    height: auto;
+    border-radius: 50%; /* Make it circular */
+    margin: 0 auto; /* Center the image */
+    display: block; /* To center margin: 0 auto */
+}
+
+.profile_div {
+    margin-top: 10px; /* Add space above the subtitle */
+}
+
+#subtitle {
+    color: #fff;
+    margin: 0;
+    padding: 5px 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.update_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #252525; /* Dark gray background */
+    margin: 20px auto; /* Center the form with a margin */
+    padding: 20px; /* Add padding to the form */
+    max-width: 600px; /* Limit the width of the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a shadow */
+}
+
+/* Customize the styles for form inputs and labels */
+.form-label {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 5px; /* Add space between label and input */
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff;
+    width: 100%;
+    margin-bottom: 15px; /* Increase margin between inputs */
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Customize the styles for the "Update" button */
+.btn-primary {
+    background-color: #3d0d99;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    width: fit-content;
+}
+
+.btn-primary:hover {
+    background-color: #120c49;
+}
+
+#but {
+    text-align: center;
+    margin-top: 15px; /* Add space between form and button */
+}
